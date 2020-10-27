@@ -1,6 +1,5 @@
 
-
-Repository to read **multi-part** parquet files in R. Depends on the R package `arrow`.
+R package to read **multi-part** parquet files in R. Depends on the R package `arrow`.
 
 If you only need to read in a single partioned parquet file use `arrow::read_parquet`. 
 
