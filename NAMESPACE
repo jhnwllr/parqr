@@ -1,5 +1,4 @@
 exportPattern("^[[:alpha:]]+")
 importFrom(magrittr,"%>%")
-importFrom(roperators,"%+%")
 import(arrow)
-import(data.table)
+import(purrr)
