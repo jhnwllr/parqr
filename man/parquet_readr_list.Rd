@@ -7,10 +7,12 @@
 parquet_readr_list(path, verbose = FALSE)
 }
 \arguments{
-\item{verbose}{}
+\item{path}{The path to the directory where the file is stored.}
+
+\item{verbose}{For debugging the path string.}
 }
 \value{
-
+A list of dataframes.
 }
 \description{
 parquet_readr_list

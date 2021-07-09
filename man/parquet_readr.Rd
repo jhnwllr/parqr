@@ -2,7 +2,7 @@
 % Please edit documentation in R/parquet_readr.R
 \name{parquet_readr}
 \alias{parquet_readr}
-\title{Title}
+\title{Read a multi-part parquet file in as a data.frame}
 \usage{
 parquet_readr(path, verbose = FALSE)
 }
@@ -15,7 +15,7 @@ parquet_readr(path, verbose = FALSE)
 A single dataframe of your multi-part parquet.
 }
 \description{
-Title
+Read a multi-part parquet file in as a data.frame
 }
 \examples{
 \dontrun{
