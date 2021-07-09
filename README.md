@@ -1,9 +1,9 @@
 
-  [![R-CMD-check](https://github.com/jhnwllr/parqr/workflows/R-CMD-check/badge.svg)](https://github.com/jhnwllr/parqr/actions)[![R-CMD-check](https://github.com/jhnwllr/parqr/workflows/R-CMD-check/badge.svg)](https://github.com/jhnwllr/parqr/actions)
+[![R-CMD-check](https://github.com/jhnwllr/parqr/workflows/R-CMD-check/badge.svg)](https://github.com/jhnwllr/parqr/actions)
 
-R package to read **multi-part** parquet files in R. Depends on the R package `arrow`.
+R package to read **multi-part** parquet files in R. Depends on the Rpackage `arrow`.
 
-If you only need to read in a single partioned parquet file use `arrow::read_parquet`. 
+If you only need to read in a single partitioned parquet file use `arrow::read_parquet`. 
 
 ## Installation 
 

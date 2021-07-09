@@ -18,7 +18,7 @@ parquet_readr = function(path,verbose=FALSE) {
   if(verbose) print(Sys.glob(path_string))
 
   df = Sys.glob(path_string) %>%
-    map(~ arrow::read_parquet(.x)) %>%
+    purrr::map(~ arrow::read_parquet(.x)) %>%
     do.call("rbind",.)
 
   return(df)

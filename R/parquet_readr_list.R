@@ -14,7 +14,7 @@ parquet_readr_list = function(path,verbose=FALSE) {
   if(verbose) print(Sys.glob(path_string))
 
   df = Sys.glob(path_string) %>%
-    map(~ arrow::read_parquet(.x))
+    purrr::map(~ arrow::read_parquet(.x))
 
   return(df)
 }
