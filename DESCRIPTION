@@ -1,12 +1,11 @@
 Package: parqr
 Type: Package
-Title: What the Package Does (Title Case)
+Title: An R Package to Read In Multi-Part Parquet Files
 Version: 0.1.0
 Author: John Waller
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Maintainer: The package maintainer <jhnwllr@gmail.com>
+Description: Reads in multi-part parquet files.
+License: CC0
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.1

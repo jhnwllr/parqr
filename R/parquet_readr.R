@@ -13,6 +13,8 @@
 #'
 
 parquet_readr = function(path,verbose=FALSE) {
+  . = NULL
+
   path_string = paste0(path,"/part-*.parquet")
 
   if(verbose) print(Sys.glob(path_string))
