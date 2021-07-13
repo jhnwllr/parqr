@@ -3,6 +3,7 @@
 * macOS (on GitHub Actions), R-4.1.0
 * ubuntu 18.04 (on GitHub Actions), R-4.1.0
 * windows-latestt (on GitHub Actions), R-4.1.0
+* checked with devtools::check_rhub()
 
 ## R CMD check results
 
