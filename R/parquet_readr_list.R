@@ -6,7 +6,11 @@
 #' @return A list of dataframes.
 #' @export
 #'
-#' @examples
+#' @examples \dontrun{
+#' # parquet_readr_list(path=path/to/your/parquet.parquet)
+#'
+#' }
+
 
 parquet_readr_list = function(path,verbose=FALSE) {
   path_string = paste0(path,"/part-*.parquet")

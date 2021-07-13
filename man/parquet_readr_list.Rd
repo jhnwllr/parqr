@@ -17,3 +17,9 @@ A list of dataframes.
 \description{
 parquet_readr_list
 }
+\examples{
+\dontrun{
+# parquet_readr_list(path=path/to/your/parquet.parquet)
+
+}
+}

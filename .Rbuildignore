@@ -4,3 +4,10 @@
 ^LICENSE\.md$
 ^cran-comments\.md$
 ^README\.Rmd$
+.gitignore
+.Rhistory
+cran-comments.md
+README.Rmd
+README.md
+.github
+^LICENSE\.md$
