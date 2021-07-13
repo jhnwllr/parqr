@@ -40,3 +40,11 @@ path_to_parquet = "file.parquet"
 parquet_readr(path_to_parquet) # will return data.frame 
 #> NULL
 ```
+
+## arrow
+
+The installation requires the Arrow library which should be installed
+with the `R` package `arrow` dependency. However, some systems may need
+to follow additional steps to enable full support of that library.
+Please refer to the `arrow`
+[documentation](https://CRAN.R-project.org/package=arrow/vignettes/install.html).
