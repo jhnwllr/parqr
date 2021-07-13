@@ -1,0 +1,24 @@
+---
+title: "usage-vignette"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{usage-vignette}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+
+```{r setup}
+library(parqr)
+
+path_to_parquet = "file.parquet"
+parquet_readr(path_to_parquet) # will return data.frame 
+
+```

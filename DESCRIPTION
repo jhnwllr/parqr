@@ -4,8 +4,10 @@ Title: An R Package to Read In Multi-Part Parquet Files
 Version: 0.1.0
 Author: John Waller
 Maintainer: The package maintainer <jhnwllr@gmail.com>
-Description: Reads in multi-part parquet files.
+Description: Reads in multi-part parquet files. 
+URL: https://github.com/jhnwllr/parqr
 License: CC0
+BugReports: https://github.com/jhnwllr/parqr/issues
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.1
@@ -14,5 +16,8 @@ Imports:
     arrow,
     magrittr
 Suggests: 
-    testthat (>= 3.0.0)
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown
 Config/testthat/edition: 3
+VignetteBuilder: knitr
