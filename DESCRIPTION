@@ -1,9 +1,9 @@
 Package: parqr
 Type: Package
-Title: An R Package to Read in Multi-Part Parquet Files
+Title: Read in Multi-Part Parquet Files
 Version: 0.1.0
 Authors@R: person("John", "Waller", email = "jhnwllr@gmail.com", role = c("aut", "cre")) 
-Description: Reads in multi-part parquet files. 
+Description: Reads in multi-part parquet files. Will read in parquet files that have not been previously coalesced into one file. Convenient for reading in moderately sized, but split files. 
 URL: https://github.com/jhnwllr/parqr
 License: CC0
 BugReports: https://github.com/jhnwllr/parqr/issues
