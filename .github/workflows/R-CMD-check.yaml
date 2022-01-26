@@ -84,6 +84,7 @@ jobs:
         env:
           _R_CHECK_CRAN_INCOMING_: false
         run: |
+          install.packages('remotes')
           options(crayon.enabled = TRUE)
           rcmdcheck::rcmdcheck(args = c("--no-manual", "--as-cran"), error_on = "warning", check_dir = "check")
         shell: Rscript {0}
@@ -108,4 +109,4 @@ jobs:
       - name: Test coverage
         if: matrix.config.os == 'ubuntu-18.04' && matrix.config.r == 'release'
         run: |
-          Rscript -e 'install.packages('remotes'); remotes::install_cran("covr")' -e 'covr::codecov()'
+          Rscript -e 'remotes::install_cran("covr")' -e 'covr::codecov()'
