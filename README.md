@@ -7,7 +7,8 @@
 <!-- badges: start -->
 
 [![R-CMD-check](https://github.com/jhnwllr/parqr/workflows/R-CMD-check/badge.svg)](https://github.com/jhnwllr/parqr/actions)
-[![codecov.io](https://codecov.io/github/ropensci/rgbif/coverage.svg?branch=master)](https://codecov.io/github/ropensci/rgbif?branch=master)
+<https://github.com/jhnwllr/parqr>
+[![codecov.io](https://codecov.io/github/jhnwllr/parqr/coverage.svg?branch=master)](https://codecov.io/github/jhnwllr/parqr/?branch=master)
 <!-- badges: end -->
 
 The goal of parqr is to read **multi-part** parquet files in R. Depends
