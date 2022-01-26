@@ -110,3 +110,8 @@ jobs:
         if: ${{ runner.os == 'Windows' && startsWith(steps.install-r.outputs.installed-r-version, '3.6' ) }}
         shell: bash
         run: echo "C:/Program Files/Git/usr/bin" >> $GITHUB_PATH
+
+- name: Test coverage
+        if: matrix.config.os == 'ubuntu-18.04' && matrix.config.r == 'release'
+        run: |
+          Rscript -e 'remotes::install_cran("covr")' -e 'covr::codecov()'
