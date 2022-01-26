@@ -7,7 +7,6 @@
 <!-- badges: start -->
 
 [![R-CMD-check](https://github.com/jhnwllr/parqr/workflows/R-CMD-check/badge.svg)](https://github.com/jhnwllr/parqr/actions)
-<https://github.com/jhnwllr/parqr>
 [![codecov.io](https://codecov.io/github/jhnwllr/parqr/coverage.svg?branch=master)](https://codecov.io/github/jhnwllr/parqr?branch=master)
 <!-- badges: end -->
 
